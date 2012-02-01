@@ -1,0 +1,15 @@
+header {
+	height: 116px;
+	background: #222 url(images/illustration.png) no-repeat;
+}
+
+footer {
+	height: 340px;
+	background: transparent url(images/milk.png) center center no-repeat;
+}
+
+h1  {
+	margin-top: 10px;
+	font-size: 3em;
+	text-align: center;
+}
