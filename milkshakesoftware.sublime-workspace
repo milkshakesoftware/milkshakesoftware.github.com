@@ -1,0 +1,381 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"app",
+				"appendToElement"
+			],
+			[
+				"mat",
+				"matchedElement"
+			],
+			[
+				"parse",
+				"parseUserId"
+			],
+			[
+				"int",
+				"interestProfile"
+			],
+			[
+				"Inter",
+				"InterestProfile"
+			],
+			[
+				"Intere",
+				"interestProfile"
+			],
+			[
+				"ob",
+				"objectsToSave"
+			],
+			[
+				"tal",
+				"talking_about_count"
+			],
+			[
+				"lik",
+				"likedObjects"
+			],
+			[
+				"liked",
+				"likedObjects"
+			],
+			[
+				"scal",
+				"scaleMax"
+			],
+			[
+				"sca",
+				"scaledScoreStepSize"
+			],
+			[
+				"sc",
+				"scaledScoreStepSize"
+			],
+			[
+				"in",
+				"interest"
+			],
+			[
+				"acc",
+				"accessToken"
+			],
+			[
+				"access",
+				"access_token"
+			],
+			[
+				"fet",
+				"fetchUri"
+			],
+			[
+				"htt",
+				"httpResponse"
+			],
+			[
+				"get",
+				"getApiUri"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"albu",
+				"albumId"
+			],
+			[
+				"getP",
+				"getPhotoUrlWithSize"
+			],
+			[
+				"ca",
+				"cacheMyInfo"
+			],
+			[
+				"handle",
+				"handleStatusChange"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"Appl",
+				"Applications"
+			],
+			[
+				"file",
+				"filePath"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 307.0,
+		"selected_items":
+		[
+			[
+				"HT",
+				"HTMLPrettify: Prettify"
+			],
+			[
+				"htmp",
+				"HTMLPrettify: Prettify"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/martinnormark/Documents/Dev/node-playground/views/hello_index.handlebars",
+		"/Users/martinnormark/Documents/Dev/node-playground/config/default.yaml",
+		"/Users/martinnormark/Documents/Dev/node-playground/.gitignore",
+		"/Users/martinnormark/Documents/Dev/contenteditable-autocomplete/.gitignore",
+		"/Users/martinnormark/Documents/Dev/contenteditable-autocomplete/index.html",
+		"/Users/martinnormark/Documents/Dev/discourse/app/assets/javascripts/admin/models/admin_user.js.coffee",
+		"/Users/martinnormark/Documents/Dev/discourse/app/views/topics/show.html.erb",
+		"/Users/martinnormark/Documents/Dev/discourse/app/assets/javascripts/discourse/components/div_resizer.js.coffee",
+		"/Users/martinnormark/Documents/Dev/discourse/sublime-project",
+		"/Users/martinnormark/Documents/Dev/bitpulse.github.com/index.html",
+		"/Users/martinnormark/Documents/Dev/node-playground/server.js",
+		"/Users/martinnormark/Documents/Dev/node-azure/server.js",
+		"/Users/martinnormark/Documents/Dev/Ponca/PoncaCloudCode/cloud/main.js",
+		"/Users/martinnormark/Documents/Dev/Ponca/PoncaCloudCode.sublime-project",
+		"/Users/martinnormark/Documents/Dev/Ponca/.gitignore",
+		"/Users/martinnormark/Dropbox/iOS apps/Ponca/install.html",
+		"/Users/martinnormark/Documents/Dev/PreMailer.Net/PreMailer.Net/GlobalAssemblyInfo.cs",
+		"/Users/martinnormark/Documents/Dev/PreMailer.Net/PreMailer.Net/PreMailer.Net/Properties/AssemblyInfo.cs",
+		"/Users/martinnormark/Documents/Dev/fbworldhack/app.js",
+		"/Users/martinnormark/Documents/Dev/fbworldhack/public/javascripts/viewmodels/albums.js",
+		"/Users/martinnormark/Documents/Dev/fbworldhack/public/javascripts/viewmodels/pictures.js",
+		"/Users/martinnormark/Documents/Dev/fbworldhack/public/javascripts/fbinit.js",
+		"/Users/martinnormark/Documents/Dev/fbworldhack/views/albums.jade",
+		"/Users/martinnormark/Documents/Dev/fbworldhack/views/pictures.jade",
+		"/Users/martinnormark/Documents/Dev/fbworldhack/views/layout.jade",
+		"/Users/martinnormark/Documents/Dev/fbworldhack/public/channel.html",
+		"/Users/martinnormark/Documents/Dev/fbworldhack/package.json",
+		"/Users/martinnormark/Documents/Dev/fbworldhack/.gitignore",
+		"/Users/martinnormark/Documents/Dev/how-global-am-i/js/templates/welcome.handlebars",
+		"/Users/martinnormark/Documents/Dev/how-global-am-i/Makefile",
+		"/Users/martinnormark/Documents/Dev/how-global-am-i/css/site.css",
+		"/Users/martinnormark/Documents/Dev/how-global-am-i/index.html",
+		"/Users/martinnormark/Documents/Dev/how-global-am-i/js/collections/friendscollection.js",
+		"/Users/martinnormark/Documents/Dev/how-global-am-i/js/app.js",
+		"/Users/martinnormark/Documents/Dev/how-global-am-i/js/models/friend.js",
+		"/Users/martinnormark/Documents/Dev/how-global-am-i/channel.html",
+		"/Users/martinnormark/Dropbox/Backup/HowGlobalAmI/HowGlobalAmI.Web/Views/Home/Index.cshtml",
+		"/Users/martinnormark/Dropbox/Backup/HowGlobalAmI/HowGlobalAmI.Web/Views/Shared/_Layout.cshtml",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/js/models/Label.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/js/models/Device.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/js/models/Error.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/js/models/Event.js",
+		"/Users/martinnormark/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/js/models/Application.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/test/view-tests.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/test/model-tests.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/test/index.html",
+		"/Users/martinnormark/Documents/Dev/less-compile/style.less",
+		"/Users/martinnormark/Documents/Dev/less-compile/style.css",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/js/views/AppView.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/css/site.css",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/views/partials/nav.html",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/js/app.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/js/views/AppPagerView.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/index.html",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/web.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/package.json",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/js/views/AppNavigationView.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/views/partials/appView.html",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/js/templates.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/views/index.html",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/views/partials/notification.hogan",
+		"/Users/martinnormark/Documents/Dev/node_modules/handlebars/README.markdown",
+		"/Users/martinnormark/Downloads/test.handlebars",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/views/layout.hogan",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/views/partials/nav.hogan",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/views/index.hogan",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/views/layout.html",
+		"/Users/martinnormark/Downloads/h5bp-html5-boilerplate-359a13f/index.html",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/node_modules/express-hogan.js/testapp.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/views/main.html",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/node_modules/express-hogan.js/views/index.html",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/hogan-express.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/*.hogan",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/views/layouts/main.hogan",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/views/index.hogan.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/templates.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/hogan-compile.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/hogan-epress.js",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/package.json",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/views/partials/nav.dust",
+		"/Users/martinnormark/Library/Application Support/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/views/index.dust",
+		"/Users/martinnormark/Documents/Dev/BitPulseApp/src/views/layouts/main.dust.html",
+		"/Users/martinnormark/Downloads/test.html",
+		"/Users/martinnormark/Dropbox/iOS Dev/Pinly/Pinly/en.lproj/MainStoryboard.storyboard",
+		"/Users/martinnormark/Documents/Dev/jquery-format-currency/README",
+		"/Users/martinnormark/Documents/Dev/jquery-format-currency/examples/as-you-type.html",
+		"/Users/martinnormark/Documents/Dev/strong-window-1742/views/home.ejs",
+		"/Users/martinnormark/Documents/Dev/strong-window-1742/views/home.mobile.ejs",
+		"/Users/martinnormark/Documents/Dev/wysihtml5/examples/css/clean.css",
+		"/Users/martinnormark/Documents/Dev/wysihtml5/src/toolbar/toolbar.js",
+		"/Users/martinnormark/Documents/Dev/wysihtml5/src/toolbar/dialog.js",
+		"/Users/martinnormark/Documents/Dev/wysihtml5/examples/clean.html",
+		"/Users/martinnormark/Documents/Dev/wysihtml5/src/dom/class.js",
+		"/Users/martinnormark/Documents/Dev/wysihtml5/src/toolbar/speech.js"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"less",
+			"CONF",
+			"util",
+			"cluster",
+			"#",
+			"port",
+			"rPho",
+			"coverPho",
+			".succ",
+			"addmarker",
+			"tab",
+			"Models",
+			"_",
+			"pinMapV",
+			"opened",
+			"-dialog",
+			"opened",
+			"_DISABLED",
+			"nofoll",
+			"fire"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 27.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				".css",
+				"src/css/site.css"
+			],
+			[
+				"",
+				"src/js/views/AppView.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 325.0,
+	"status_bar_visible": true
+}
