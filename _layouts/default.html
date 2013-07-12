@@ -6,7 +6,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		<title>{% page.title %} | Milkshake Software</title>
+                <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
 		<meta name="description" content="" />
 		<meta name="viewport" content="width=device-width" />
 
@@ -26,7 +26,7 @@
                         {% include footer.html %}
 
 			<div class="container">
-				{% page.content %}
+				{{ page.content }}
                         </div>
 
                         {% include footer.html %}
