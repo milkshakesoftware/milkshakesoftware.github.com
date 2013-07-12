@@ -10,10 +10,10 @@
 		<meta name="description" content="" />
 		<meta name="viewport" content="width=device-width" />
 
-		<link rel="stylesheet" href="css/normalize.css" />
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" href="css/font-awesome.css" />
-		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome.css" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
 	</head>
 	<body data-spy="scroll" data-target=".masthead">
 		
@@ -25,19 +25,17 @@
 
                         {% include header.html %}
 
-			<div class="container">
-				{{ page.content }}
-                        </div>
+			{{ page.content }}
 
                         {% include footer.html %}
 
 		</div>
 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-		<script src="js/vendor/bootstrap.min.js"></script>
-		<script src="js/plugins.js"></script>
-		<script src="js/main.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="{{ site.baseurl }}/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+		<script src="{{ site.baseurl }}/js/vendor/bootstrap.min.js"></script>
+		<script src="{{ site.baseurl }}/js/plugins.js"></script>
+		<script src="{{ site.baseurl }}/js/main.js"></script>
 
 		<script>
 			var _gaq=[['_setAccount','UA-36700431-1'],['_trackPageview']];
