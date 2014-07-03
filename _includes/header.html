@@ -1,19 +1,24 @@
-<header class="site-header">
+<header class="navbar navbar-static-top ms-site-nav">
 
-  <div class="wrap">
-
-    <a class="site-title" href="{{ site.baseurl }}">{{ site.name }}</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-      </a>
-      <div class="trigger">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".ms-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="{{ site.baseurl }}/" class="navbar-brand">Milkshake Software</a>
+    </div>
+    <nav class="collapse navbar-collapse ms-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
         {% for page in site.pages %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          <li>
+            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          </li>
         {% endfor %}
-      </div>
+      </ul>
     </nav>
-
   </div>
 
 </header>
