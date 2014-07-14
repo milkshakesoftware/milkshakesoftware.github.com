@@ -1,5 +1,7 @@
 .ms-site-nav {
 	border-bottom: 1px solid #ddd;
+	background-color: #ffffff;
+	opacity: 0.999;
 }
 
 .navbar-header .navbar-brand img {
