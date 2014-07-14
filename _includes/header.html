@@ -12,10 +12,13 @@
     </div>
     <nav class="collapse navbar-collapse ms-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-        {% for page in site.pages %}
+        {% assign sorted_pages = site.pages | sort:"sortOrder" %}
+        {% for page in sorted_pages %}
+        {% if page.showInNavBar %}
           <li>
             <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           </li>
+        {% endif %}
         {% endfor %}
       </ul>
     </nav>
