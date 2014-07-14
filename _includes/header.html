@@ -13,11 +13,13 @@
     <nav class="collapse navbar-collapse ms-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
         {% assign sorted_pages = site.pages | sort:"sortOrder" %}
-        {% for page in sorted_pages %}
-        {% if page.showInNavBar %}
-          <li>
-            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          </li>
+        {% for node in sorted_pages %}
+        {% if node.showInNavBar %}
+        {% if page.url == node.url %}
+          <li class="active"><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
+        {% else %}
+          <li><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
+        {% endif %}
         {% endif %}
         {% endfor %}
       </ul>

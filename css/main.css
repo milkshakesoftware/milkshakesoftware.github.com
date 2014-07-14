@@ -1,5 +1,14 @@
+.ms-site-nav {
+	border-bottom: 1px solid #ddd;
+}
+
 .navbar-header .navbar-brand img {
 	margin-top: -30px;
+}
+
+.ms-site-nav .navbar-nav > li > a:hover, .ms-site-nav .navbar-nav > .active > a, .ms-site-nav .navbar-nav > .active > a:hover {
+	color: #454545;
+	background-color: #f9f9f9;
 }
 
 .essay {
