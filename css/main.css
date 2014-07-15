@@ -2,10 +2,17 @@
 	border-bottom: 1px solid #ddd;
 	background-color: #ffffff;
 	opacity: 0.999;
+	height: 61px;
 }
 
 .navbar-header .navbar-brand img {
-	margin-top: -30px;
+	max-width: 150px;
+	margin-top: -7px;
+}
+
+.ms-site-nav .navbar-nav > li > a {
+	padding-top: 21px;
+	padding-bottom: 19px;
 }
 
 .ms-site-nav .navbar-nav > li > a:hover, .ms-site-nav .navbar-nav > .active > a, .ms-site-nav .navbar-nav > .active > a:hover {
