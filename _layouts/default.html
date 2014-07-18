@@ -3,11 +3,11 @@
 
   {% include head.html %}
 
-  <body class="layout-default">
+  <body class="layout-{{ page.bodyCssClass ?? "default" }}">
 
     {% include header.html %}
 
-    <div class="outer-bounds">
+    <div class="outer-bounds content-{{ page.contentCssClass ?? "default" }}">
       {% if page.cover %}
         <div class="cover">
           <div class="cover-image" style="background-image: url({{ page.cover.image | prepend: site.baseurl }})"></div>
