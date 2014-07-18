@@ -8,6 +8,20 @@
     {% include header.html %}
 
     <div class="outer-bounds">
+      {% if page.cover %}
+        <div class="cover">
+          <div class="cover-image" style="background-image: url({{ page.cover.image | prepend: site.baseurl }})"></div>
+          <div class="cover-content" data-scroll="cover-fade">
+            <div class="cover-content-head">
+              <header class="cover-content-header">
+                <h1 itemprop="name" name="title" class="page-title">{{ page.cover.title }}</h1>
+                <h2 name="subtitle" class="page-subtitle">{{ page.cover.subtitle }}</h2>
+              </header>
+            </div>
+          </div>
+        </div>
+      {%endif%}
+
       {{ content }}
     </div>
 

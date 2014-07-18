@@ -30,11 +30,9 @@
 }
 
 .cover {
-	height: 500px;
-	max-width: 100%;
+	position: relative;
+	height: 100%;
 	width: 100%;
-	margin-top: 0;
-	position: relative;	
 }
 
 .cover > .cover-image {
@@ -48,6 +46,50 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;	
+}
+
+.cover-content {
+	position: relative;
+	width: 100%;
+	vertical-align: bottom;
+	padding-top: 160px;
+	padding-bottom: 160px;
+	color: #fff;
+}
+
+.cover-content-head {
+	width: 640px;
+	margin: 0 auto;
+	letter-spacing: 0.01rem;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;
+	line-height: 1.5;	
+}
+
+.page-title {
+	letter-spacing: -0.02em;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: -0.04em;
+	font-size: 50px;
+	line-height: 1.1;
+	margin-bottom: 8px;
+}
+
+.page-subtitle {
+	font-size: 30px;
+	line-height: 1.1;
+	color: rgba(0,0,0,0.6);
+	margin: 0;
+	letter-spacing: -0.02em;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.page-title, .page-title:focus {
+	outline: 0;
+	word-wrap: break-word;
 }
 
 .container-content {
