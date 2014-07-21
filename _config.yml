@@ -7,4 +7,4 @@ baseurl: "http://milkshakehq.com"
 
 # Build settings
 markdown: kramdown
-permalinks: pretty
+permalink: /blog/:year/:month/:day/:title.html
