@@ -78,6 +78,10 @@
 	margin-bottom: 8px;
 }
 
+.content-default .page-title {
+	font-weight: 200;
+}
+
 .page-subtitle {
 	font-size: 30px;
 	line-height: 1.45;
