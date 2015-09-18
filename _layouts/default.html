@@ -15,16 +15,22 @@
       <div class="outer-bounds content-{{ page.contentCssClass }}">
     {% else %}
       <div class="outer-bounds content-default">
-    {% endif %}      
+    {% endif %}
       {% if page.cover %}
         <div class="cover">
           <div class="cover-image" style="background-image: url({{ page.cover.image | prepend: site.baseurl }})"></div>
           <div class="cover-content" data-scroll="cover-fade">
-            <div class="cover-content-head">
-              <header class="cover-content-header">
-                <h1 itemprop="name" name="title" class="page-title">{{ page.cover.title }}</h1>
-                <h2 name="subtitle" class="page-subtitle">{{ page.cover.subtitle }}</h2>
-              </header>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-push-2 col-sm-7">
+                  <div class="cover-content-head">
+                    <header class="cover-content-header">
+                      <h1 itemprop="name" name="title" class="page-title">{{ page.cover.title }}</h1>
+                      <h2 name="subtitle" class="page-subtitle">{{ page.cover.subtitle }}</h2>
+                    </header>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
