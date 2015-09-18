@@ -2,7 +2,7 @@
 layout: default
 title: Kontakt
 showInNavBar: true
-sortOrder: 60
+sortOrder: 50
 permalink: kontakt/
 ---
 
